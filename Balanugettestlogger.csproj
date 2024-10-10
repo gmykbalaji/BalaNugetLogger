@@ -1,9 +1,39 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
   </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="obj\Debug\net6.0\.NETCoreApp,Version=v6.0.AssemblyAttributes.cs" />
+    <Compile Include="obj\Debug\net6.0\Balanugettestlogger.AssemblyInfo.cs" />
+    <Compile Include="obj\Debug\net6.0\Balanugettestlogger.GlobalUsings.g.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="bin\Debug\net6.0\Balanugettestlogger.deps.json" />
+    <Content Include="obj\Balanugettestlogger.csproj.nuget.dgspec.json" />
+    <Content Include="obj\Debug\net6.0\Balanugettestlogger.csproj.FileListAbsolute.txt" />
+    <Content Include="obj\project.assets.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Balanugettestlogger.sln" />
+    <None Include="bin\Debug\net6.0\Balanugettestlogger.dll" />
+    <None Include="bin\Debug\net6.0\Balanugettestlogger.pdb" />
+    <None Include="obj\Balanugettestlogger.csproj.nuget.g.props" />
+    <None Include="obj\Balanugettestlogger.csproj.nuget.g.targets" />
+    <None Include="obj\Debug\net6.0\Balanugettestlogger.AssemblyInfoInputs.cache" />
+    <None Include="obj\Debug\net6.0\Balanugettestlogger.assets.cache" />
+    <None Include="obj\Debug\net6.0\Balanugettestlogger.csproj.CoreCompileInputs.cache" />
+    <None Include="obj\Debug\net6.0\Balanugettestlogger.dll" />
+    <None Include="obj\Debug\net6.0\Balanugettestlogger.GeneratedMSBuildEditorConfig.editorconfig" />
+    <None Include="obj\Debug\net6.0\Balanugettestlogger.pdb" />
+    <None Include="obj\Debug\net6.0\refint\Balanugettestlogger.dll" />
+    <None Include="obj\Debug\net6.0\ref\Balanugettestlogger.dll" />
+    <None Include="obj\project.nuget.cache" />
+  </ItemGroup>
 
 </Project>
